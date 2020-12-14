@@ -2,6 +2,10 @@
 
 Nesse projeto, foi construido um compilador, que traduz código da linguagem IsiLanguage para o Python.
 
+Observações:
+1. No Python, não há chaves e as apenas indentações são usadas para determinar o código que pertence a um bloco. Foi implementada a indentação correspondente aos blocos originais, no código em Isilanguage.
+1. É possível implementar blocos aninhados, ou seja, um "enquanto" dentro de um "se", dentro de outro bloco "se". É também possível implementar um "se" com ou sem o "senão".
+1. É possível comparar textos, com as operações "mesmo_texto" e "dif_texto".
 
 
 ## Exemplos:
