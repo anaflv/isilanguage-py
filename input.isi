@@ -1,10 +1,26 @@
 programa
 
-	declare numero a, b.
-	b := 3.
+	declare numero a, b, c.
+	declare texto x, y.
+
+	leia (a).
+	leia (b).
+	leia (c).
+	
+	escreva("Digite x e y").
+	leia (x).
+	leia (y).
+	
 	
 	enquanto (a < b){
 		a := a + 3.
 	}
+	
+	se (x mesmo_texto y) entao{
+	 	escreva ("Mesmo texto").
+	} senao {
+		escreva ("textos diferentes").
+	}
+	 
 
 fimprog.
