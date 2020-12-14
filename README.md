@@ -93,11 +93,6 @@ if (x!="Hello hello"):
 
 ## Checklist:
 
-
-
-1 Possui 2 tipos de variáveis
-2 Possui a estrutura If.. else
-3 1a Estrutura de Repetição
 5 Verificar se Variável foi atribuída ou não
 6 Possui operações de Entrada e Saída
 7 Aceita números decimais
@@ -106,9 +101,141 @@ if (x!="Hello hello"):
 10 Qual linguagem destino? (C/Java/Python)
 ITENS OPCIONAIS (Se houver)
 
- 1. Possui 2 tipos de variáveis
+1. Possui 2 tipos de variáveis
 
- 1. Possui a estrutura If.. else
+Há dois tipos de variáveis na Isilanguage: texto e numero
+```
+programa
+
+	declare numero a, b.
+	declare texto x.
+	
+	a := 1.
+	b := 3.6.
+	
+	x := "Texto exemplo".
+	 
+
+fimprog.
+```
+
+
+2. Possui a estrutura If.. else
+
+Há a estrutura "se enquanto .. senão" no IsiLanguage.
+```
+programa
+	declare numero a, b.	
+	leia(a).
+	leia(b).
+	
+	se (a > b) entao {
+		escreva ("a maior")
+	} senao { 
+		escreva ("a menor")
+	}
+	
+	se (a == b) entao {
+		escreva ("a igual a b").
+	}
+fimprog.
+```
+
+3. 1a Estrutura de Repetição
+
+Há a estrutura de repetição "enquanto" no Isilanguage :dragon:, similar ao while, em outras linguagens.
+
+```
+programa
+
+	declare numero a, b.		
+	leia(a).
+	leia(b).
+	
+	enquanto (a < b){
+		escreva (a).
+		a := a + 3.		
+		se (a == 2) entao {
+			a := 9.
+		}
+	}
+
+fimprog.
+```
+
+5. Verificar se Variável foi atribuída ou não
+
+6. Possui operações de Entrada e Saída
+
+Há as operações leia() e escreva().
+
+```
+programa
+	declare numero a, b.		
+	leia(a).
+	leia(b).
+	escreva(a).
+	escreva("hello world").
+fimprog.
+```
+
+7. Aceita números decimais
+
+O programa aceita números decimais.
+```
+programa
+	declare numero a, b.
+	a := 1.25.
+	b := 7.843.
+fimprog.
+```
+
+8. Verificar se variável foi declarada
+
+Se a variável não foi declarada, há um erro semântico.
+
+Se escrever:
+```
+programa
+	
+	enquanto (a < 1){	
+		escreva(a).
+	}
+
+fimprog.
+```
+
+Há o erro: 
+```
+Semantic error - Symbol a not declared
+```
+
+9. Verificar se variável declarada foi ou não usada
+Se uma variável foi declarada mas não usada, há a impressão de um Warning.
+Por exemplo:
+```
+programa	
+	declare numero a, b, c.
+	a := 1.
+	b := 2.
+fimprog.
+```
+
+No console:
+```
+Warning! Variable c was declared but not not used.
+```
+
+
+
+10. ITENS OPCIONAIS
+- Comparação de tipos:
+ - Não é possível atribuir um texto (como "hello") a uma variável numérica
+ - Não é possivel comparar um texto e um número (por exemplo, "hello" > 4) 
+ - Não é possível realizar operações numéricas em textos (como ">" e "!=")
+ - Não é possível realizar operações de texto em números ("dif_texto" e "mesmo_texto") 
+- É possível fazer vários blocos de se/senão e enquanto, um dentro do outro
+ 
 
 
 
@@ -125,9 +252,7 @@ prog
 
 decl
 :
-	(
-		declaravar
-	)+
+	(declaravar)+
 ;
 
 declaravar
