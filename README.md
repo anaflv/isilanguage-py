@@ -8,6 +8,9 @@ Observações:
 1. É possível comparar textos, com as operações "mesmo_texto" e "dif_texto".
 
 
+
+
+
 ## Exemplos:
 
 Texto em IsiLanguage:
