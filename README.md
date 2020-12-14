@@ -93,7 +93,7 @@ if (x!="Hello hello"):
 
 ## Checklist:
 
-1. Possui 2 tipos de variáveis
+**\1.** Possui 2 tipos de variáveis
 
 Há dois tipos de variáveis na Isilanguage: texto e numero
 ```
@@ -112,7 +112,7 @@ fimprog.
 ```
 
 
-2. Possui a estrutura If.. else
+**\2.** Possui a estrutura If.. else
 
 Há a estrutura "se enquanto .. senão" no IsiLanguage.
 ```
@@ -133,7 +133,7 @@ programa
 fimprog.
 ```
 
-3. 1a Estrutura de Repetição
+**\3.** 1a Estrutura de Repetição
 
 Há a estrutura de repetição "enquanto" no Isilanguage :dragon:, similar ao while, em outras linguagens.
 
@@ -155,7 +155,7 @@ programa
 fimprog.
 ```
 
-5. Verificar se Variável foi atribuída ou não
+**\5.** Verificar se Variável foi atribuída ou não
 Se a variável não foi atribuída e tenta-se usar essa variável, há um erro semântico. A variável é considerada como atribuída também quando ela é lida (pelo comando leia()).
 
 Quando se tenta executar o código:
@@ -177,7 +177,7 @@ Semantic error - Variable a not attributed.
 
 
 
-6. Possui operações de Entrada e Saída
+**\6.** Possui operações de Entrada e Saída
 
 Há as operações leia() e escreva().
 
@@ -202,7 +202,7 @@ programa
 fimprog.
 ```
 
-8. Verificar se variável foi declarada
+**\8.** Verificar se variável foi declarada
 
 Se a variável não foi declarada, há um erro semântico.
 
@@ -222,7 +222,7 @@ Há o erro:
 Semantic error - Symbol a not declared
 ```
 
-9. Verificar se variável declarada foi ou não usada
+**\9.** Verificar se variável declarada foi ou não usada
 Se uma variável foi declarada mas não usada, há a impressão de um Warning.
 Por exemplo:
 ```
@@ -240,7 +240,7 @@ Warning! Variable c was declared but not not used.
 
 
 
-10. ITENS OPCIONAIS
+**\10.** ITENS OPCIONAIS
 - Comparação de tipos:
  - Não é possível atribuir um texto (como "hello") a uma variável numérica
  - Não é possivel comparar um texto e um número (por exemplo, "hello" > 4) 
