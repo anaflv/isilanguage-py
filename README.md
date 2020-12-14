@@ -192,7 +192,7 @@ programa
 fimprog.
 ```
 
-7. Aceita números decimais
+**7.** Aceita números decimais
 
 O programa aceita números decimais.
 ```
