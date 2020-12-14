@@ -1,4 +1,4 @@
-# Projeto final Compiladores - 12/2020
+# Projeto final Compiladores - 12/2020 :computer: :raising_hand:
 
 Nesse projeto, foi construido um compilador, que traduz código da linguagem IsiLanguage :dragon: para o Python :snake:.
 
