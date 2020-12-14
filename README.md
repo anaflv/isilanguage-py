@@ -66,4 +66,31 @@ else:
 	print("Textos diferentes")
 ```
 
+Texto em IsiLanguage:
+
+```
+programa
+	
+	declare texto x, y.	
+	x := "Hello world".
+	
+	se (x dif_texto "Hello hello") entao{
+		leia (y).
+	}
+		
+		
+fimprog.
+```
+
+Resultado (em Python):
+
+```python
+# -*- coding: utf-8 -*-
+x = "Hello world"
+if (x!="Hello hello"):
+	y = input()
+```
+
+
+
 
