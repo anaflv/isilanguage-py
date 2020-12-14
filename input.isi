@@ -1,0 +1,10 @@
+programa
+
+	declare numero a, b.
+	b := 3.
+	
+	enquanto (a < b){
+		a := a + 3.
+	}
+
+fimprog.
