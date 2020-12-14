@@ -1,9 +1,13 @@
-# isilanguage-py
-Projeto final Compiladores - 12/2020
+# Projeto final Compiladores - 12/2020
 
-Exemplos:
+Nesse projeto, foi construido um compilador, que traduz código da linguagem IsiLanguage para o Python.
 
-IsiLanguage:
+
+
+## Exemplos:
+
+Texto em IsiLanguage:
+
 ```
 programa
 
@@ -30,12 +34,10 @@ programa
 	 
 
 fimprog.
-
-
-
 ```
 
 Resultado (em Python):
+
 ```python
 # -*- coding: utf-8 -*-
 a = float(input())
@@ -55,9 +57,6 @@ if (x==y):
 	print("Mesmo texto")
 else:
 	print("Textos diferentes")
-
-
-
 ```
 
 
