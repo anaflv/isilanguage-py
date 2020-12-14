@@ -156,6 +156,7 @@ fimprog.
 ```
 
 **5.** Verificar se Variável foi atribuída ou não
+
 Se a variável não foi atribuída e tenta-se usar essa variável, há um erro semântico. A variável é considerada como atribuída também quando ela é lida (pelo comando leia()).
 
 Quando se tenta executar o código:
@@ -223,6 +224,7 @@ Semantic error - Symbol a not declared
 ```
 
 **\9.** Verificar se variável declarada foi ou não usada
+
 Se uma variável foi declarada mas não usada, há a impressão de um Warning.
 Por exemplo:
 ```
