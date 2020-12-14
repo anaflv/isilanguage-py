@@ -156,6 +156,26 @@ fimprog.
 ```
 
 5. Verificar se Variável foi atribuída ou não
+Se a variável não foi atribuída e tenta-se usar essa variável, há um erro semântico. A variável é considerada como atribuída também quando ela é lida (pelo comando leia()).
+
+Quando se tenta executar o código:
+```
+programa
+	declare numero a, b.
+	b := 3.
+
+	enquanto (a < b){
+		a := a + 3.
+	}
+fimprog.
+```
+
+Há o erro:
+```
+Semantic error - Variable a not attributed.
+```
+
+
 
 6. Possui operações de Entrada e Saída
 
@@ -459,6 +479,6 @@ WS
 
 
 
-
+:christmas_tree:
 
 
