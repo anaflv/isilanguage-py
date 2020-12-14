@@ -91,6 +91,27 @@ if (x!="Hello hello"):
 	y = input()
 ```
 
+## Checklist:
+
+
+
+1 Possui 2 tipos de variáveis
+2 Possui a estrutura If.. else
+3 1a Estrutura de Repetição
+5 Verificar se Variável foi atribuída ou não
+6 Possui operações de Entrada e Saída
+7 Aceita números decimais
+8 Verificar se variável foi declarada
+9 Verificar se variável declarada foi ou não usada
+10 Qual linguagem destino? (C/Java/Python)
+ITENS OPCIONAIS (Se houver)
+
+ 1. Possui 2 tipos de variáveis
+
+ 1. Possui a estrutura If.. else
+
+
+
 
 ## Gramática:
 
