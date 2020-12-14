@@ -8,6 +8,90 @@ Observações:
 1. É possível comparar textos, com as operações "mesmo_texto" e "dif_texto".
 
 
+
+## Exemplos:
+
+### Exemplo 1:
+Texto em IsiLanguage:
+
+```
+programa
+
+	declare numero a, b.
+	declare texto x, y.
+
+	leia (a).
+	leia (b).
+	
+	escreva("Digite x e y").
+	leia (x).
+	leia (y).
+	
+	
+	enquanto (a < b){
+		a := a + 3.
+	}
+	
+	se (x mesmo_texto y) entao{
+	 	escreva ("Mesmo texto").
+	} senao {
+		escreva ("textos diferentes").
+	}
+	 
+
+fimprog.
+```
+
+Resultado (em Python):
+
+```python
+# -*- coding: utf-8 -*-
+a = float(input())
+
+b = float(input())
+
+print("Digite x e y")
+x = input()
+
+y = input()
+
+while (a<b):
+	a = a+3
+
+if (x==y):
+	a = a+1
+	print("Mesmo texto")
+else:
+	print("Textos diferentes")
+```
+
+### Exemplo 2:
+Texto em IsiLanguage:
+
+```
+programa
+	
+	declare texto x, y.	
+	x := "Hello world".
+	
+	se (x dif_texto "Hello hello") entao{
+		leia (y).
+	}
+		
+		
+fimprog.
+```
+
+Resultado (em Python):
+
+```python
+# -*- coding: utf-8 -*-
+x = "Hello world"
+if (x!="Hello hello"):
+	y = input()
+```
+
+
 ## Gramática:
 
 A gramática da linguagem IsiLanguage :dragon: possui a seguinte estrutura, nesse projeto:
@@ -236,89 +320,6 @@ WS
 ```
 
 
-
-
-## Exemplos:
-
-### Exemplo 1:
-Texto em IsiLanguage:
-
-```
-programa
-
-	declare numero a, b.
-	declare texto x, y.
-
-	leia (a).
-	leia (b).
-	
-	escreva("Digite x e y").
-	leia (x).
-	leia (y).
-	
-	
-	enquanto (a < b){
-		a := a + 3.
-	}
-	
-	se (x mesmo_texto y) entao{
-	 	escreva ("Mesmo texto").
-	} senao {
-		escreva ("textos diferentes").
-	}
-	 
-
-fimprog.
-```
-
-Resultado (em Python):
-
-```python
-# -*- coding: utf-8 -*-
-a = float(input())
-
-b = float(input())
-
-print("Digite x e y")
-x = input()
-
-y = input()
-
-while (a<b):
-	a = a+3
-
-if (x==y):
-	a = a+1
-	print("Mesmo texto")
-else:
-	print("Textos diferentes")
-```
-
-### Exemplo 2:
-Texto em IsiLanguage:
-
-```
-programa
-	
-	declare texto x, y.	
-	x := "Hello world".
-	
-	se (x dif_texto "Hello hello") entao{
-		leia (y).
-	}
-		
-		
-fimprog.
-```
-
-Resultado (em Python):
-
-```python
-# -*- coding: utf-8 -*-
-x = "Hello world"
-if (x!="Hello hello"):
-	y = input()
-```
 
 
 
