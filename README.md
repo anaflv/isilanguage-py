@@ -13,6 +13,7 @@ Observações:
 
 ## Exemplos:
 
+### Exemplo 1:
 Texto em IsiLanguage:
 
 ```
@@ -66,6 +67,7 @@ else:
 	print("Textos diferentes")
 ```
 
+### Exemplo 2:
 Texto em IsiLanguage:
 
 ```
