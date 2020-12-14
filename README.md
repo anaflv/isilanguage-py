@@ -1,6 +1,6 @@
 # Projeto final Compiladores - 12/2020
 
-Nesse projeto, foi construido um compilador, que traduz código da linguagem IsiLanguage para o Python.
+Nesse projeto, foi construido um compilador, que traduz código da linguagem IsiLanguage :dragon: para o Python :snake:.
 
 Observações:
 1. No Python, não há chaves e as apenas indentações são usadas para determinar o código que pertence a um bloco. Foi implementada a indentação correspondente aos blocos originais, no código em Isilanguage.
