@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-a = 1
 a = float(input())
 
 b = float(input())
+
+c = float(input())
 
 print("Digite x e y")
 x = input()
